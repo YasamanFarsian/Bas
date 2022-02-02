@@ -9,8 +9,9 @@ categories.getAllCategories();
 categories.getSingleCategory('women%27s%20clothing');
 }
 
-var productSetup = function(){
-    let products = new products();
+var productsSetup = function(){
+    let products = new Products();
+    products.getSingleProduct();
     products.getSingleProduct('productid');
  
     }
