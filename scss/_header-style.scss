@@ -1,0 +1,96 @@
+.body-blue {
+  background: $blue;
+}
+
+
+//header
+header {
+  background: url(../images/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg) center;
+  background-size: cover;
+  min-height:350px;
+  .logo {
+    padding: 4px !important;
+    font-size: 1.5em;
+
+
+    a {
+      color: #fff
+    }
+
+  }
+.nav{background: none;}
+  .site-header {
+    .nav-link {
+      color: $white !important;
+      &:hover {
+        color: $gray-600 !important;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+.bg-transparent{background:#756a6361}
+
+
+
+
+.icons{
+  a{color:$white;
+  &:hover{color:#000}
+  }
+}
+
+
+}
+
+
+
+
+
+//responsive
+@media(max-width:1280px) {
+
+  .site-header a {
+    margin-left: 0.5rem;
+  }
+
+}
+
+@media(max-width:823px) {
+  .flex-responsive {
+    display: block !important
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+
+}
+
+@media(max-width:736px) {
+ 
+
+  .menu {
+    .btn {
+      display: inline-table
+    }
+  }
+
+  header .navbar-toggler {
+    border: none;
+    background-color: #51596e;
+  }
+
+  header .site-header .nav-link {
+    color: #d9dadf;
+  }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid #727989;
+    padding: 10px 0;
+  }
+
+}
+

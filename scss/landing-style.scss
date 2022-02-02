@@ -1,0 +1,75 @@
+@import "functions";
+@import "variables";
+@import "header-style";
+
+
+footer{
+background-color:#e2ddd7;
+a{color:rgb(204, 139, 18)}
+p{color:$gray-800}
+}
+
+.products-container{
+
+  .product-title{
+
+color:#000;font-weight: bold;
+  }
+.product-detail{color:#000;line-height: 2rem;
+
+  .product-rating {.fa{color:rgb(233, 171, 36)}}
+  select{width: 40%;  padding: 1%;}
+  label{padding-right:1rem}
+}
+.Related-Products{color:#000; border-bottom: 1px solid $gray-400;}
+
+.btn-card{background:#000; border:none;color:#fff}
+.btn-wish{    background-color: #e9ab24;border:none;color:#fff}
+}
+
+
+
+
+
+
+
+
+//responsive
+// @media(max-width:768px) {
+//   table {
+//     display: inline-table;
+//     width: 100%;
+//     overflow-x: auto;
+//     -webkit-overflow-scrolling: touch;
+//     -ms-overflow-style: -ms-autohiding-scrollbar;
+//   }
+
+//   .slider-container {
+//     padding-top: 4em;
+//   }
+
+//   .newsletter {
+//     padding-top: 0 !important;
+//   }
+
+//   .stat-block {
+//     min-height: 233px;
+//   }
+
+//   .title-header {
+//     padding: 0rem 0 0.5rem;
+//   }
+
+//   .quote-container {
+//     padding: 4rem 0 1rem;
+//   }
+
+//   .footer-column .newsletter {
+//     text-align: center !important;
+//     margin: 2rem auto;
+//   }
+
+//   .footer-column .newsletter label {
+//     margin-bottom: 1rem
+//   }
+// }

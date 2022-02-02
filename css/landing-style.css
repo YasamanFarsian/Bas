@@ -1,0 +1,82 @@
+.body-blue {
+  background: #0d6efd; }
+
+header {
+  background: url(../images/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg) center;
+  background-size: cover;
+  min-height: 350px; }
+  header .logo {
+    padding: 4px !important;
+    font-size: 1.5em; }
+    header .logo a {
+      color: #fff; }
+  header .nav {
+    background: none; }
+  header .site-header .nav-link {
+    color: #fff !important; }
+    header .site-header .nav-link:hover {
+      color: #6c757d !important;
+      text-decoration: none; }
+  header .bg-transparent {
+    background: #756a6361; }
+  header .icons a {
+    color: #fff; }
+    header .icons a:hover {
+      color: #000; }
+
+@media (max-width: 1280px) {
+  .site-header a {
+    margin-left: 0.5rem; } }
+@media (max-width: 823px) {
+  .flex-responsive {
+    display: block !important; }
+
+  .container {
+    max-width: 100%; } }
+@media (max-width: 736px) {
+  .menu .btn {
+    display: inline-table; }
+
+  header .navbar-toggler {
+    border: none;
+    background-color: #51596e; }
+
+  header .site-header .nav-link {
+    color: #d9dadf; }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid #727989;
+    padding: 10px 0; } }
+footer {
+  background-color: #e2ddd7; }
+  footer a {
+    color: #cc8b12; }
+  footer p {
+    color: #343a40; }
+
+.products-container .product-title {
+  color: #000;
+  font-weight: bold; }
+.products-container .product-detail {
+  color: #000;
+  line-height: 2rem; }
+  .products-container .product-detail .product-rating .fa {
+    color: #e9ab24; }
+  .products-container .product-detail select {
+    width: 40%;
+    padding: 1%; }
+  .products-container .product-detail label {
+    padding-right: 1rem; }
+.products-container .Related-Products {
+  color: #000;
+  border-bottom: 1px solid #ced4da; }
+.products-container .btn-card {
+  background: #000;
+  border: none;
+  color: #fff; }
+.products-container .btn-wish {
+  background-color: #e9ab24;
+  border: none;
+  color: #fff; }
+
+/*# sourceMappingURL=landing-style.css.map */

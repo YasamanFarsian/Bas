@@ -1,0 +1,264 @@
+@import "functions";
+@import "variables";
+@import "header-style";
+@import "footer-style";
+
+
+.title-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 2rem 0 0.5rem;
+
+  h3 {
+    font-weight: bold;
+    line-height: 37px;
+  }
+
+  span {
+    font-size: 16px;
+    opacity: 0.65;
+  }
+
+}
+
+.nav-inside{
+  
+    margin-top: 1rem;
+    background: #252f4a73;
+    padding: 0;
+ul{margin-bottom: 0;
+    padding: 0;
+
+    li{    
+        padding: 1rem 2rem; line-height: 49px;
+        margin: 0 1rem;
+        a:hover{color:$gray-900}
+    .icon{border-radius: 5px;
+        background: #3b486561;
+        width: 50px;
+        height: 47px;
+        margin-right:0.5rem;
+        line-height: 49px;
+        text-align: center;
+        font-size: 1.5em;}
+    
+    }
+}
+
+
+}
+
+
+
+//stat-block
+.stat-block {
+    background: $blue;
+    padding: 2.5rem;
+    margin: 2rem 0;
+    border-radius: 7px;
+    cursor: pointer;
+  
+    &:hover {
+      background: $orange;
+  
+      span,
+      .fa,
+      h3 {
+        color: $blue;
+      }
+  
+    }
+  
+    h3 {
+      padding: 0;
+      margin: 0;
+      font-weight: bold;
+      line-height: 30px;
+    }
+  
+    span {
+      color: $gray-900;
+  
+      .fa {
+        font-size: 2em;
+        font-size: 3em;
+        color: #46516f;
+        margin-bottom: 1rem;
+      }
+  
+    }
+  
+  
+  
+  }
+  
+.card-info{
+
+  background-color: #ffffff14;
+  padding: 1.5rem;
+  margin: 3rem auto;
+  button{color: #fff;
+    background: #f5991d;
+    cursor:pointer;
+    border: none;
+    font-weight: 700;
+    width: 100%;
+    height: 38px;
+    border: 0;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+.header{font-size: 1.2em;
+  background: #ffffff12;
+  padding: 0.7rem 0;}
+.title{    color: #aaafb5;
+  display: inline-block;
+  font-size: 17px;}
+  input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  
+  label {
+    cursor: pointer;
+    text-indent: -10016px;
+    width: 50px;
+    height: 20px;
+    background: #5d677c;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+    float:right;
+&:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 10px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+  }
+  
+ .payment{    border-top: 1px solid #95a0b159;
+  padding-top: 16px;
+  margin-top: 2rem;}
+ 
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  .text-underline{text-decoration: underline !important;}
+.input-field{border: 1px solid #4a628629;
+  padding: 11px 8px; color:#fff;
+  background: #4b566ef2;
+  border-radius: 3px;}
+  ::placeholder {
+   color:$gray-900;
+    font-size: 15px;
+    padding:0;
+  }
+
+
+
+}
+
+
+
+//responsive
+@media(max-width:768px) {
+  table {
+    display: inline-table;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .slider-container {
+    padding-top: 4em;
+  }
+
+  .newsletter {
+    padding-top: 0 !important;
+  }
+
+  .stat-block {
+    min-height: 233px;
+  }
+
+  .title-header {
+    padding: 0rem 0 0.5rem;
+  }
+
+  .quote-container {
+    padding: 4rem 0 1rem;
+  }
+
+  .footer-column .newsletter {
+    text-align: center !important;
+    margin: 2rem auto;
+  }
+
+  .footer-column .newsletter label {
+    margin-bottom: 1rem
+  }
+}
+
+@media(max-width:736px) {
+  .newsletter .form-inline {
+    margin: 0 !important
+  }
+
+}
+
+@media(max-width:480px) {
+
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+  .nav-inside ul li {
+    padding: 1rem 0rem;
+    line-height: 49px;
+    margin: 0 0rem;
+    width: 48%;font-size: 14px;
+}
+  .stat-block {
+    margin: 1rem 0 1rem;
+  }
+
+  .title-header {
+    padding: 2rem 0 0.5rem;
+  }
+
+  .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .report-table .card-header h4:before {
+    width: 32%;
+  }
+
+  .newsletter {
+    input {
+      margin: 0
+    }
+
+    .icon {
+      display: none !important;
+    }
+
+  }
+
+
+
+}
