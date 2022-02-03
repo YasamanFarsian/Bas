@@ -14,6 +14,7 @@ p{color:$gray-800}
   .product-title{
 
 color:#000;font-weight: bold;
+font-size: 1.3rem;
   }
 .product-detail{color:#000;line-height: 2rem;
 
@@ -28,7 +29,13 @@ color:#000;font-weight: bold;
 }
 
 
+.products-list{
 
+h2{font-size:1rem;
+  a{color:$gray-800; text-decoration: none;}
+}
+.card{min-height: 455px;}
+}
 
 
 

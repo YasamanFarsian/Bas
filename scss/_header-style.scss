@@ -23,7 +23,7 @@ header {
     .nav-link {
       color: $white !important;
       &:hover {
-        color: $gray-600 !important;
+        color: #6b6b4f !important;
         text-decoration: none;
       }
     }
@@ -31,21 +31,12 @@ header {
   }
 
 .bg-transparent{background:#756a6361}
-
-
-
-
 .icons{
   a{color:$white;
   &:hover{color:#000}
   }
 }
-
-
 }
-
-
-
 
 
 //responsive
@@ -54,7 +45,6 @@ header {
   .site-header a {
     margin-left: 0.5rem;
   }
-
 }
 
 @media(max-width:823px) {
@@ -65,22 +55,18 @@ header {
   .container {
     max-width: 100%;
   }
-
-
 }
 
 @media(max-width:736px) {
- 
-
   .menu {
     .btn {
       display: inline-table
     }
   }
-
+header .icons{display:none !important}
   header .navbar-toggler {
     border: none;
-    background-color: #51596e;
+    fill:#fff;
   }
 
   header .site-header .nav-link {
@@ -88,9 +74,15 @@ header {
   }
 
   .navbar-nav .nav-item {
-    border-bottom: 1px solid #727989;
+    border-bottom: 1px solid #aaa199;
     padding: 10px 0;
+    &:last-child{border:none}
   }
+.menu{display: contents;}
+.site-header{background: #877e78;
+  width: 100%;
+  padding: 5px 0 15px;
 
+}
 }
 
